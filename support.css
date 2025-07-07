@@ -1,0 +1,260 @@
+body {
+    background-color: beige;
+    /*linear-gradient(rgb(248, 217, 183), rgb(237, 133, 150), rgb(217, 115, 205), rgb(114, 31, 181), rgb(24, 61, 136));*/
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /*never assume someones browser will have a white background and black texts, add what you want it to be in css */
+}
+
+.sidebyside {
+    float: left;
+    margin-inline: 2em;
+    width: 325;
+    height: 325;
+    margin-top: 1em;
+}
+
+#sascontainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.sidebyside > div {
+    /* by doing the > div within a class we already have, we refrence the child div inside the parent div. So you dont need to go back to html to add a new class type insdie the child div */
+    padding: 5px;
+}
+
+.sidebyside1 {
+    float: left;
+    margin-inline: 2em;
+    width: 90;
+    height: 116;
+    margin-top: 1em;
+    /*adding the width makes sure text below image remains contained within its peramiters (remember 150px is the size of the tumbnail*/
+    /*border-left: 1px solid black;
+    */
+}
+
+#sbscontainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.sidebyside1 > div {
+    /* by doing the > div within a class we already have, we refrence the child div inside the parent div. So you dont need to go back to html to add a new class type insdie the child div */
+    padding: 5px;
+}
+
+.sidebyside2 {
+    float: left;
+    width: 225;
+    height: 161;
+    margin: 1em;
+}
+
+#scscontainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+}
+
+.sidebyside3 {
+    float: left;
+    margin: 5px;
+    margin-top: 2em;
+    width: 225;
+    height: 150;
+}
+
+#sfscontainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1425px;
+}
+
+.sidebyside3 > div {
+    /* by doing the > div within a class we already have, we refrence the child div inside the parent div. So you dont need to go back to html to add a new class type insdie the child div */
+    padding: 20px;
+}
+
+.sidebyside4 {
+    float: left;
+    margin: 2em;
+    width: 320px;
+    height: 180px;
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+
+.sidebyside5 {
+    width: 225px;
+    height: 127px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sescontainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.sidebyside6 {
+    float: left;
+    margin-inline: 2em;
+    width: 325;
+    height: 421;
+    /*adding the width makes sure text below image remains contained within its peramiters (remember 150px is the size of the tumbnail*/
+    /*border-left: 1px solid black;
+    */
+}
+
+#sgscontainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 5em;
+}
+
+.sidebyside7 {
+    float: left;
+    margin-inline: 1em;
+    width: 325;
+    height: 421;
+    /*adding the width makes sure text below image remains contained within its peramiters (remember 150px is the size of the tumbnail*/
+    /*border-left: 1px solid black;
+    */
+}
+
+.sidebyside7 > div {
+    /* by doing the > div within a class we already have, we refrence the child div inside the parent div. So you dont need to go back to html to add a new class type insdie the child div */
+    padding: 5px;
+}
+
+.text {
+    text-align: center;
+}
+
+.text2 {
+    text-align: center;
+    margin-top: 17%;
+    margin-bottom: 0%;
+}
+
+.text3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    color: beige;
+    background-color: red;
+    outline: solid .8em red;
+}
+
+.current {
+    color: beige;
+    background-color: red;
+}
+
+.border {
+    background-color: beige;
+    margin: auto;
+    margin-top: 0px;
+    width: 700px;
+    padding-left:5px;
+    padding-top: 5px;
+    border: solid 10px yellow;
+    outline: solid 10px red;
+}
+
+#sdscontainer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 560;
+}
+
+.item {
+    width: 10em;
+}
+
+.p1 {
+    text-align: left;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: beige;
+    background-color: red;
+    outline: solid .8em red;
+}
+
+.p2 {
+    text-align: center;
+    margin-top: 0em;
+    margin-bottom: 2em;
+}
+
+.p3 {
+    text-align: center;
+    background-color: black; 
+    font-size: small; 
+    color: beige;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p4 {
+    text-align: left;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p5 {
+    text-indent: 40px;
+    text-align: left;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p6 {
+    text-align: center;
+    background-color: beige; 
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p7 {
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0em;
+}
+
+h2 {
+    font-size: 1em;
+    margin-bottom: 0em;
+    margin-top: -1em;
+    font-style: italic;
+    font-weight: normal;
+}
